@@ -23,7 +23,7 @@ jobs:
         with:
           scan-type: 'fs'
           ignore-unfixed: true
-          format: 'json'
+          format: 'table'
           output: 'result.json'
           severity: 'CRITICAL'
 
