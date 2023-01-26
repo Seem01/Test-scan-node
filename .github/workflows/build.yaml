@@ -25,7 +25,7 @@ jobs:
           ignore-unfixed: true
           format: 'table'
           output: 'result.json'
-          severity: 'CRITICAL'
+          severity: 'CRITICAL, HIGH'
 
       - name: upload result
         uses: actions/upload-artifact@v2
