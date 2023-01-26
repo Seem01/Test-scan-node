@@ -23,13 +23,13 @@ jobs:
         with:
           scan-type: 'fs'
           ignore-unfixed: true
-          format: 'json'
-          output: 'result.json'
+          format: 'html'
+          output: 'result.html'
           severity: 'CRITICAL'
 
       - name: upload result
         uses: actions/upload-artifact@v2
         with:
           name: result
-          path: result.json
+          path: result.html
 
